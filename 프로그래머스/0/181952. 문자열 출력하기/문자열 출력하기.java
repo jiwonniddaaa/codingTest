@@ -1,3 +1,5 @@
+//20260622
+
 import java.util.Scanner;
 
 public class Main{
