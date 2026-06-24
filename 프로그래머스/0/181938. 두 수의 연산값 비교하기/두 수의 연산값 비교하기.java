@@ -1,8 +1,9 @@
 class Solution{
     public int solution(int a, int b){
+        String result = "";
         String p = String.valueOf(a) + String.valueOf(b);
-        int c = Integer.parseInt(p);
-        int d = 2 * a * b;
-        return Math.max(c, d);
+        int n = Integer.parseInt(p);
+        int m = 2 * a * b;
+        return Math.max(n, m);
     }
 }
